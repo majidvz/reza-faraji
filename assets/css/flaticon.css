@@ -1,0 +1,60 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/07/2020 07:44
+  	*/
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.eot");
+    src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Flaticon.woff2") format("woff2"),
+        url("../fonts/Flaticon.woff") format("woff"),
+        url("../fonts/Flaticon.ttf") format("truetype"),
+        url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-conversation:before { content: "\f100"; }
+.flaticon-home:before { content: "\f101"; }
+.flaticon-estimate:before { content: "\f102"; }
+.flaticon-cost:before { content: "\f103"; }
+.flaticon-stopwatch:before { content: "\f104"; }
+.flaticon-planning:before { content: "\f105"; }
+.flaticon-customer-support:before { content: "\f106"; }
+.flaticon-trophy:before { content: "\f107"; }
+.flaticon-complete:before { content: "\f108"; }
+.flaticon-customer-review:before { content: "\f109"; }
+.flaticon-experience:before { content: "\f10a"; }
+.flaticon-quotation:before { content: "\f10b"; }
+.flaticon-manufacturing:before { content: "\f10c"; }
+.flaticon-interior-design:before { content: "\f10d"; }
+.flaticon-project-management:before { content: "\f10e"; }
+.flaticon-phone-ringing:before { content: "\f10f"; }
+.flaticon-email:before { content: "\f110"; }
+.flaticon-shopping-cart:before { content: "\f111"; }
+.flaticon-play-button:before { content: "\f112"; }
+.flaticon-quality:before { content: "\f113"; }
+.flaticon-responsibility:before { content: "\f114"; }
+.flaticon-loupe:before { content: "\f115"; }
+.flaticon-left-arrow:before { content: "\f116"; }
+.flaticon-calendar:before { content: "\f117"; }
+.flaticon-next:before { content: "\f118"; }
+.flaticon-user:before { content: "\f119"; }
+.flaticon-placeholder:before { content: "\f11a"; }
+.flaticon-email-1:before { content: "\f11b"; }
+.flaticon-call:before { content: "\f11c"; }
+.flaticon-menu:before { content: "\f11d"; }

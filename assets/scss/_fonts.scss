@@ -1,0 +1,12 @@
+@include font($ir-r);
+@include font($ir-b);
+
+.ir-{
+    &r{
+        font-family: $ir-r !important;
+    }
+
+    &b{
+        font-family: $ir-b !important;
+    }
+}

@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.logo-img{
+    height:60px !important;
+}
+
+.flaticon-next{
+    transform: rotateY(180deg) !important;
+}
+
+.single-blog-post{
+    .news-content a h3{
+        line-height: 36px;
+    }
+}
+
+.index-intro{
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+    h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .img-holder{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: url(/assets/img/testimonials-img/testimonials-shape.jpg) repeat center;
+
+        img{
+            padding: 20px;
+            background: #ffffff;
+        }
+    }
+}

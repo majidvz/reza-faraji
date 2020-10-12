@@ -1,0 +1,50 @@
+@font-face {
+  font-family: iransans-regular;
+  src: url(/assets/fonts/iransans-regular.woff);
+}
+@font-face {
+  font-family: iransans-bold;
+  src: url(/assets/fonts/iransans-bold.woff);
+}
+.ir-r {
+  font-family: iransans-regular !important;
+}
+.ir-b {
+  font-family: iransans-bold !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo-img {
+  height: 60px !important;
+}
+
+.flaticon-next {
+  transform: rotateY(180deg) !important;
+}
+
+.single-blog-post .news-content a h3 {
+  line-height: 36px;
+}
+
+.index-intro {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.index-intro h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.index-intro .img-holder {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url(/assets/img/testimonials-img/testimonials-shape.jpg) repeat center;
+}
+.index-intro .img-holder img {
+  padding: 20px;
+  background: #ffffff;
+}
+
+/*# sourceMappingURL=custom.css.map */
