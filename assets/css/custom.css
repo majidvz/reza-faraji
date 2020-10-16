@@ -1,3 +1,10 @@
+:root{
+  --white-color: #ffffff;
+  --main-color: #ff5e14;
+  --transition: all ease .5s;
+  --border-radius: 4px;
+}
+
 @font-face {
   font-family: iransans-regular;
   src: url(/assets/fonts/iransans-regular.woff);
@@ -6,6 +13,15 @@
   font-family: iransans-bold;
   src: url(/assets/fonts/iransans-bold.woff);
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+textarea{
+  resize: none;
+}
+
 .ir-r {
   font-family: iransans-regular !important;
 }
@@ -40,11 +56,33 @@ html {
 .index-intro .img-holder {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: url(/assets/img/testimonials-img/testimonials-shape.jpg) repeat center;
+  background: url(/assets/img/testimonials-shape.jpg) repeat center;
 }
 .index-intro .img-holder img {
   padding: 20px;
   background: #ffffff;
 }
 
-/*# sourceMappingURL=custom.css.map */
+.mb-100{
+  margin-bottom: 100px !important;
+}
+
+.primary-btn {
+  font-size: 16px;
+  color: var(--white-color);
+  padding: 15px 40px;
+  line-height: 1;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  text-align: center;
+  background-color: var(--heading-color);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--heading-color) !important;
+  text-transform: capitalize;
+}
+
+.primary-btn:hover {
+  color: var(--heading-color);
+  border-color: var(--heading-color) !important;
+  background-color: transparent;
+}
