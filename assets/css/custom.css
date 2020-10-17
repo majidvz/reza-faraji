@@ -14,6 +14,10 @@
   src: url(/assets/fonts/iransans-bold.woff);
 }
 
+html,body{
+  overflow-x: hidden;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -85,4 +89,18 @@ html {
   color: var(--heading-color);
   border-color: var(--heading-color) !important;
   background-color: transparent;
+}
+
+.page-title-area.bg-13,.main-contact-area .contact-info{
+  background-image: url(/assets/img/product-features-bg.png);
+}
+
+.about-intro {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(/assets/img/testimonials-shape.jpg) repeat center;
+}
+
+.about-intro img{
+  padding: 20px;
 }
